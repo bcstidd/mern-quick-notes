@@ -36,3 +36,7 @@ export function checkToken() {
     return usersAPI.checkToken()
         .then(dateStr => new Date(dateStr))
 }
+export function checkNote() {
+    return checkNote()
+    .then()
+}
