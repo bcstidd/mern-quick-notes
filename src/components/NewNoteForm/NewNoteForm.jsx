@@ -18,7 +18,14 @@ async function NewNoteForm(evt) {
 }
 
 return (
-    <div>
-        <h4>Create</h4>
-    </div>
-)
+    < div className='form'>
+        <h4>Create a new note!</h4>
+        <textarea
+            value={newNote}
+            onChange={(evt) => setNewNote(evt.target.value)}
+            placeholder="Enter your note here..."
+            rows={8}
+            cols={30}
+        />
+        <button onClick={handleAddNote}>Save Note</button>
+    </div >
