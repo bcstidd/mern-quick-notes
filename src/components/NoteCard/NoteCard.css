@@ -1,0 +1,71 @@
+.card {
+    display: flex;
+    background-color: hsla(201, 80%, 95%, 0.3);
+
+    flex-direction: column;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin: 30px 400px 30px 400px;
+}
+
+.card > h3 {
+    color: white;
+    border-bottom: 2px solid black;
+}
+
+.card > p {
+    width: 50%;
+    align-self: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+.form > h4 {
+    font-size: x-large;
+    font-weight: 300;
+    color: white;
+}
+
+.form > button {
+    font-size: larger;
+    background-color: green;
+}
+
+textarea {
+    width: 350px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: hsla(201, 77%, 95%, 0.3);
+    margin-top: -15px;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 3px;
+    color: white;
+    font-size: x-large;   
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+h2 {
+    font-weight: 500;
+    margin: 20px 500px 0px 0px;
+    border-width: 100hw;
+    color: steelblue;
+}

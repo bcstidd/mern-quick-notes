@@ -17,15 +17,16 @@ export default function NewNoteForm({ user, setNotes }) {
 
     return (
         < div className='form'>
-            <h4>Create a new note!</h4>
+            <h4>Create a new note</h4>
             <textarea
                 value={newNote}
                 onChange={(evt) => setNewNote(evt.target.value)}
-                placeholder="Enter your note here..."
+                placeholder="Enter your note..."
                 rows={8}
                 cols={30}
             />
-            <button onClick={handleAddNote}>Save Note</button>
+            <button onClick={handleAddNote}>Add Note</button>
+            <hr />
         </div >
     );
 }

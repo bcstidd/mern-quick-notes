@@ -21,7 +21,7 @@ export default function NotesPage({ user }) {
             <NewNoteForm user={user} setNotes={setNotes} />
             {notes.length > 0 ? (
                 <>
-                    <h2>My Notes</h2>
+                    <h2>My Notes:</h2>
                     {notes.map((note, idx) => (
                         <NoteCard note={note} key={idx} />
                     ))}
