@@ -16,7 +16,7 @@ export default function NotesPage({ user }) {
 
 
     return (
-        < div >
+        <div>
             <br />
             <NewNoteForm user={user} setNotes={setNotes} />
             {notes.length > 0 ? (
@@ -29,6 +29,6 @@ export default function NotesPage({ user }) {
             ) : (
                 <h2>No Notes Yet!</h2>
             )}
-        </div >
+        </div>
     );
 }
