@@ -26,7 +26,6 @@ export default function NewNoteForm({ user, setNotes }) {
                 cols={30}
             />
             <button onClick={handleAddNote}>Add Note</button>
-            <hr />
         </div >
     );
 }
