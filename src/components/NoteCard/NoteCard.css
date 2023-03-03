@@ -49,6 +49,11 @@ textarea {
     
 }
 
+.auth {
+    color: white;
+    font-size: x-large;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
